@@ -16,6 +16,7 @@ body{
     position: absolute;
     display: flex;
     width: 50vw;
+    color: snow;
 }
 .navigation-bar{
     display: flex;
@@ -41,6 +42,7 @@ body{
     width: 100%;
     height: 100vh;
     border-radius: 0.6rem;
+    color: snow;
 }
 .title{
     margin-top: 30vh;
@@ -62,6 +64,7 @@ body{
     align-items: center;
     border-radius: 0.6rem;
     background-color: peru;
+    color: snow;
 }
 .tip1-title{
     font-size: 3rem;
@@ -80,6 +83,7 @@ body{
     align-items: center;
     border-radius: 0.6rem;
     background-color: tomato;
+    color: snow;
 }
 .tip2-title{
     font-size: 3rem;
@@ -102,6 +106,7 @@ body{
     align-items: center;
     background-color: wheat;
     border-radius:0.6rem;
+    color: slategray;
 }
 .tip3-parts{
     display: flex;
@@ -118,6 +123,7 @@ body{
     margin-right: 2rem;
     width: 16rem;
     height: 16rem;
+    border-radius: 1rem;
 }
 .tip3-part-content{
     width: 20rem;
@@ -127,4 +133,52 @@ body{
 .tip3-title{
     font-size: 3rem;
     text-align: center
+}
+.tip4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    border-radius: 0.6rem;
+}
+.tip4-title{
+    font-size: 3rem;
+    text-align: center;
+}
+.tip4-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 34rem;
+}
+.tip4-imgs>img{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 1rem;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    background-color: black;
+    border-radius: 0.4rem;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: snow;
+}
+
+
+.enlarge{
+    cursor:pointer;
+    transition: all 0.3s;
+}
+.enlarge:hover{
+    transform:scale(1.1);
 }
