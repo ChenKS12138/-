@@ -19,7 +19,7 @@ body{
     color: snow;
     justify-content: flex-end;
     background-color: teal;
-    color: rgba(220,220,220,0.8);
+    color: snow;
     z-index: 99;
 }
 .navigation-bar{
@@ -76,7 +76,7 @@ body{
     flex-direction: column;
     align-items: center;
     
-    background-color: cadetblue;
+    background-color: rgba(95, 158, 160, 0.618);
     color: snow;
 }
 .tip1-title{
@@ -95,7 +95,7 @@ body{
     flex-direction: column;
     align-items: center;
     
-    background-color: tomato;
+    background-color: rgba(255, 99, 71, 0.618);
     color: snow;
 }
 .tip2-title{
@@ -129,7 +129,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: wheat;
+    background-color: rgb(245, 222, 179,0.618);
     color: slategray;
 }
 .tip3-parts{
@@ -215,5 +215,5 @@ body{
     transition: all 0.2s;
 }
 .color-change:hover{
-    color: snow;
+    color: black;
 }
