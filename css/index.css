@@ -21,6 +21,7 @@ body{
     background-color: teal;
     color: snow;
     z-index: 99;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 .navigation-bar{
     display: flex;
@@ -89,8 +90,8 @@ body{
     width: 70vw;
 }
 .tip2{
-    padding-top: 8rem;
-    padding-bottom: 4rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
