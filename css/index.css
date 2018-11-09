@@ -19,7 +19,6 @@ body{
     color: snow;
     justify-content: flex-end;
     background-color: teal;
-    color: snow;
     z-index: 99;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
@@ -45,6 +44,11 @@ body{
     text-align: center;
     font-size: 1.3rem;
 }
+.hide{
+    display: none;
+}
+
+
 
 .main{
     background-image: url(../img/bgimg.jpg);
@@ -182,10 +186,7 @@ body{
     max-width: 34rem;
 }
 .tip4-imgs>img{
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin:0.5rem;
     width: 16rem;
     height: 16rem;
     border-radius: 1rem;
@@ -223,4 +224,65 @@ body{
     margin-top:2rem; 
     cursor: pointer;
     text-decoration: underline;
+}
+
+@media all and (max-width:900px){
+    .tool-bar{
+        position: fixed;
+        display: flex;
+        color: snow;
+        justify-content: unset;
+        width: 100%;
+    }
+    .navigation-bar{
+        display: none;
+    }
+    .hide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: flex-start;
+        width: 100%;
+    }
+    .menu{
+        width: 4rem;
+        height: 4rem;
+        align-self: flex-start;
+        cursor: pointer;
+        display: block;
+    }
+    .hide-bar{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .hide-bar>div{
+        width: 100%;
+    }
+    
+    .tip2-parts{
+        flex-direction: column;
+        width: 100%;
+        justify-content: unset;
+    }
+    .tip2-part{
+        width: 80%;
+    }
+    .tip3-part{
+        flex-direction: column;
+        align-items: center;
+    }
+    .tip3-part>img{
+        margin: 0;
+    }
+    .tip4-imgs{
+        flex-direction: column;
+    }
+    .tip4-imgs>img{
+        width: 22rem;
+        height: 22rem;
+        margin: 1rem;
+    }
+
 }
