@@ -218,3 +218,9 @@ body{
 .color-change:hover{
     color: black;
 }
+.more{
+    font-size: 2rem;
+    margin-top:2rem; 
+    cursor: pointer;
+    text-decoration: underline;
+}
