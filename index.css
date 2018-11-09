@@ -112,15 +112,19 @@ body{
     margin-top: 3rem;
     display: flex;
     justify-content: space-between;
-    width: 60vw;
 }
 .tip3-part>img{
+    margin-left: 2rem;
+    margin-right: 2rem;
     width: 16rem;
     height: 16rem;
 }
 .tip3-part-content{
     width: 20rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }
 .tip3-title{
     font-size: 3rem;
+    text-align: center
 }
