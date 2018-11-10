@@ -23,7 +23,12 @@ function change_color(height){
         bar.style.color='snow';
         barColor(0);
         menu.setAttribute('src','img/menu_white.png');
-        barTitle.style.display='none';
+        if(height<h1/3*2){
+            barTitle.style.display='none';
+        }
+        else{
+            barTitle.style.display='flex';
+        }
         
     }
     else if(height<h2){

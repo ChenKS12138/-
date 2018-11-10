@@ -184,6 +184,8 @@ body{
     width: 20rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: rgb(245, 222, 179,0.7);
 }
 .tip3-title{
     font-size: 3rem;
