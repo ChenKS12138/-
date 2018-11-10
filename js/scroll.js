@@ -8,6 +8,7 @@ function change_color(height){
     var h2=document.getElementsByClassName('tip2')[0].offsetTop-50;
     var h3=document.getElementsByClassName('tip3')[0].offsetTop-50;
     var h4=document.getElementsByClassName('tip4')[0].offsetTop-50;
+    var h5=document.getElementsByClassName('tip5')[0].offsetTop-50;
     if(height!=0){
         nvBar.style.fontSize='1.2rem';
         nvBar.style.height='3rem';
@@ -52,11 +53,18 @@ function change_color(height){
         menu.setAttribute('src','img/menu_grey.png');
         barTitle.style.display='flex';
     }
-    else{
+    else if(height<h5){
         bar.style.backgroundColor='snow';
         bar.style.color='slategray';
         barColor(4);
         menu.setAttribute('src','img/menu_grey.png');
+        barTitle.style.display='flex';
+    }
+    else{
+        bar.style.backgroundColor='#ff4081';
+        bar.style.color='snow';
+        barColor(5);
+        menu.setAttribute('src','img/menu_white.png');
         barTitle.style.display='flex';
     }
 }
@@ -73,7 +81,7 @@ function getScrollTop(){
 function barColor(id){
     var i;
     var bar=document.getElementsByClassName("color-change");
-    for(i=0;i<5;i++){
+    for(i=0;i<6;i++){
         bar[i].style.color='';
     }
     bar[id].style.color='black';

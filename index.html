@@ -10,7 +10,7 @@
     <title>首页</title>
 </head>
 <body onload="document.getElementById('tool-bar').style.boxShadow = 'none';document.getElementById('bar-title').style.display='none';">
-    <div class="toTop MDstyle" onclick="window.scrollTo(0,0)">回到顶部</div>
+    <!-- <div class="toTop MDstyle" onclick="window.scrollTo(0,0)">回到顶部</div> -->
     <div style="background-color:teal;" class="MDstyle tool-bar" id="tool-bar">
         <div class="navigation-bar" id="navigation-bar">
             <div class="bar-title" id="bar-title"><p>主要的标题</p></div>
@@ -19,22 +19,26 @@
                         <img src="">
                         <p>首页</p>
                     </div>
-                    <div class="color-change" onclick="window.scrollTo(0,550)">
+                    <div class="color-change" onclick="window.scrollTo(0,document.getElementsByClassName('tip1')[0].offsetTop-50)">
                         <img src="">
                         <p>tip1</p>
                     </div>
-                    <div class="color-change" onclick="window.scrollTo(0,1150)">
+                    <div class="color-change" onclick="window.scrollTo(0,document.getElementsByClassName('tip2')[0].offsetTop+50)">
                         <img src="">
                         <p>tip2</p>
                     </div>
-                    <div class="color-change" onclick="window.scrollTo(0,1850)">
+                    <div class="color-change" onclick="window.scrollTo(0,document.getElementsByClassName('tip3')[0].offsetTop+50)">
                         <img src="">
                         <p>tip3</p>
                     </div>
-                    <div class="color-change" onclick="window.scrollTo(0,2750)">
+                    <div class="color-change" onclick="window.scrollTo(0,document.getElementsByClassName('tip4')[0].offsetTop+50)">
                         <img src="">
                         <p>tip4</p>
                     </div>
+                    <div class="color-change" onclick="window.scrollTo(0,document.getElementsByClassName('tip5')[0].offsetTop+50)">
+                        <img src="">
+                        <p>tip5</p>
+                    </div>    
             </div>
         </div>
         <div class="hide">
@@ -59,6 +63,10 @@
                 <div class="color-change" onclick="window.scrollTo(0,2750)">
                     <img src="">
                     <p>tip4</p>
+                </div>
+                <div class="color-change" onclick="window.scrollTo(0,2750)">
+                    <img src="">
+                    <p>tip5</p>
                 </div>
             </div>
         </div>
@@ -124,7 +132,31 @@
             <img class="enlarge MDstyle" src="img/test.jpg">
             <img class="enlarge MDstyle" src="img/test.jpg">
         </div>
-        
+    </div>
+    <div class="tip5">
+        <div class="tip5-part1 MDstyle">
+            <p class="tip5-part1-title">这是大标题</p>
+            <img src="img/bg2.jpg">
+            <p class="tip5-part1-content">这是一大段话，假装是一大段话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话</p>
+        </div>
+        <div class="tip5-part2 MDstyle">
+            <p class="tip5-part2-content">这又是一个标题</p>
+        </div>
+        <div class="tip5-part3 MDstyle">
+            <img src="img/niurouguotie.jpg">
+            <p class="tip5-part3-content">这是一大段话，假装是一大段话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话</p>
+        </div>
+        <div class="tip5-part4 MDstyle">
+            <div class="tip5-part4-imgWithTitle">
+                <p>这也是一个标题</p>
+            </div>
+            <p class="tip5-part4-content">这是一大段话，假装是一大段话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话话</p>
+        </div>
+        <div class="tip5-part5 MDstyle">
+            <img src="img/bg2.jpg">
+            <p class="tip5-part5-title">这是大标题</p>
+            <p class="tip5-part5-content">这是一大段话话话话话话话话话话话话话话话话话话话话话话话话话话话</p>
+        </div>
     </div>
 
 
