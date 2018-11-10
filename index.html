@@ -11,7 +11,7 @@
     <script src="js/scrollReveal.js"></script>
     <title>首页</title>
 </head>
-<body onload="document.getElementById('tool-bar').style.boxShadow = 'none';document.getElementById('bar-title').style.display='none';">
+<body onload="document.getElementById('tool-bar').style.boxShadow = 'none';document.getElementById('bar-title').style.display='none';document.getElementById('bar-title2').style.display='none';">
     <div style="background-color:teal;" class="MDstyle tool-bar" id="tool-bar">
         <div class="navigation-bar" id="navigation-bar">
             <div class="bar-title" id="bar-title"><p>主要的标题</p></div>
@@ -43,7 +43,10 @@
             </div>
         </div>
         <div class="hide">
-            <img id="menu" onclick="disp()" class="menu" src="img/menu_white.png"><!-- 用于放置手机页面下的按钮 -->
+            <div class="menu-title">
+                <img id="menu" onclick="disp()" class="menu" src="img/menu_white.png"><!-- 用于放置手机页面下的按钮 -->
+                <p class="nv-title" id="bar-title2">主要的标题</p>
+            </div>
             <div id="hide" style="display: none" class="hide-bar">
                 <div style="color:black" class="color-change" onclick="window.scrollTo(0,0)">
                     <img src="">

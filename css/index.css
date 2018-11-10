@@ -359,7 +359,7 @@ body{
     box-shadow: 1px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
-@media all and (max-width:900px){
+@media all and (max-width:980px) and (min-width:660px){
     .toTop{
         display: none;
     }
@@ -380,10 +380,20 @@ body{
         align-self: flex-start;
         width: 100%;
     }
+    .menu-title{
+        align-self: flex-start;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 2rem;
+        width: calc(50% + 15vh);
+    }
+    .nv-title{
+        
+    }
     .menu{
         width: 4rem;
         height: 4rem;
-        align-self: flex-start;
         cursor: pointer;
         display: block;
     }
@@ -431,5 +441,8 @@ body{
         height: 17rem;
         margin: 1rem;
     }
+
+}
+@media all and (max-width){
 
 }

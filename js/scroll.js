@@ -3,6 +3,7 @@ function change_color(height){
     var nvBar=document.getElementById('navigation-bar');
     var menu=document.getElementById('menu');
     var barTitle=document.getElementById('bar-title');
+    var barTitle2=document.getElementById('bar-title2');
 
     var h1=document.getElementsByClassName('tip1')[0].offsetTop-50;
     var h2=document.getElementsByClassName('tip2')[0].offsetTop-50;
@@ -26,9 +27,11 @@ function change_color(height){
         menu.setAttribute('src','img/menu_white.png');
         if(height<h1/3*2){
             barTitle.style.display='none';
+            barTitle2.style.display='none';
         }
         else{
             barTitle.style.display='flex';
+            barTitle2.style.display='flex';
         }
         
     }
