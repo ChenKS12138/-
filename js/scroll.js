@@ -78,6 +78,8 @@ function getScrollTop(){
 	} 
 	return scrollTop; 
 } 
+
+
 function barColor(id){
     var i;
     var bar=document.getElementsByClassName("color-change");
@@ -87,19 +89,8 @@ function barColor(id){
     bar[id].style.color='black';
 }
 
-
-
-
-
 document.onscroll = function(){
-    var h1=document.getElementsByClassName('tip1')[0].offsetTop-50;
-    var h2=document.getElementsByClassName('tip2')[0].offsetTop-50;
-    var h3=document.getElementsByClassName('tip3')[0].offsetTop-50;
-    var h4=document.getElementsByClassName('tip4')[0].offsetTop-50;
-    var h5=document.getElementsByClassName('tip5')[0].offsetTop-50;
-
-
     var height=getScrollTop();
     change_color(height);
-    
 }
+
