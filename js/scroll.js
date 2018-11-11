@@ -70,7 +70,7 @@ function change_color(height){
         barTitle.style.color='black';
     }
     else if(height<h5){
-        bar.style.backgroundColor='snow';
+        bar.style.backgroundColor='#EEE9E9';
         bar.style.color='slategray';
         barColor(4);
         menu.setAttribute('src','img/menu_grey.png');
