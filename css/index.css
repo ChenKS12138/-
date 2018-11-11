@@ -271,7 +271,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    min-aheight: 60vh;
+    min-height: 60vh;
     width: 30vw;
 }
 .tip5-part1-title{
@@ -282,9 +282,10 @@ body{
     width: 100%;
 }
 .tip5-part1-content{
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     width: 80%;
     align-self: center;
+    margin: 1rem;
 }
 .tip5-part2{
     background-image: url("../img/doufunao.png");
@@ -295,10 +296,12 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+    filter: brightness(0.8);
+    font-size: 1.1rem;
 }
 .tip5-part2-content{
     margin: 1rem;
-    color: lightgrey;
+    color:#FFFFFF;
 }
 .tip5-part3{
     display: flex;
@@ -311,29 +314,33 @@ body{
 }
 .tip5-part3-content{
     width: 80%;
+    margin: 1rem;
+    font-size: 1.1rem;
 }
 .tip5-part4{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 60vh;
+    min-height: 60vh;
     width: 30vw;
 }
 .tip5-part4-imgWithTitle{
-    background-image: url(../img/bg2.jpg);
+    background-image: url(../img/xianshuiya.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     width: 100%;
-    height: 70%;
+    height: 40vh;
 }
 .tip5-part4-imgWithTitle>p{
     margin:1rem;
 }
 .tip5-part4-content{
+    margin-top: 3rem;
     width: 80%;
+    font-size: 1.1rem;
 }
 .tip5-part5{
     display: flex;
@@ -350,12 +357,12 @@ body{
     margin: 0.8rem;
 }
 .tip5-part5-content{
-    font-size: 1rem;
-    margin: 0.8rem;
+    font-size: 1.1rem;
+    margin: 1rem;
     width: 80%;
 }
 .tip5-part6{
-    background-image: url("../img/bg2.jpg");
+    background-image: url("../img/xiaolongxia.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 25vw;
@@ -363,10 +370,12 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+    filter: brightness(0.9)
 }
 .tip5-part6-content{
     margin: 1rem;
     color: lightgrey;
+    font-size: 1.1rem;
 }
 
 
