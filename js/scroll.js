@@ -4,6 +4,7 @@ function change_color(height){
     var menu=document.getElementById('menu');
     var barTitle=document.getElementById('bar-title');
     var barTitle2=document.getElementById('bar-title2');
+    var icon=document.getElementsByClassName("icon");
 
     var h1=document.getElementsByClassName('tip1')[0].offsetTop-50;
     var h2=document.getElementsByClassName('tip2')[0].offsetTop-50;
@@ -14,11 +15,19 @@ function change_color(height){
         nvBar.style.fontSize='1.2rem';
         nvBar.style.height='3rem';
         bar.style.boxShadow='';
+        var i;
+        for(i=0;i<icon.length;i++){
+            icon[i].style.display='none';
+        }
     }
     else{
         nvBar.style.fontSize='1.5rem';
         nvBar.style.height='4rem';
         bar.style.boxShadow='none';
+        var i;
+        for(i=0;i<icon.length;i++){
+            icon[i].style.display='flex';
+        }
     }
     if(height<h1){
         bar.style.backgroundColor='teal';
