@@ -83,7 +83,7 @@ function change_color(height){
         barColor(5);
         menu.setAttribute('src','img/menu_white.png');
         barTitle.style.display='flex';
-        barTitle.style.color='black';
+        barTitle.style.color='white';
     }
 }
 
