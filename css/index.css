@@ -234,7 +234,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    min-height: 60vh;
+    min-aheight: 60vh;
     width: 30vw;
 }
 .tip5-part1-title{
@@ -446,7 +446,19 @@ body{
     .title-name{
         font-size: 2.8rem;
     }
+    .tip2-title{
+        font-size: 2.6rem;
+    }
+    .tip3-title{
+        font-size: 2.6rem;
+    }
     .tip5>div{
         width: 80vw;
+    }
+    .tip2-parts{
+        width: 90%;
+    }
+    .tip3-part{
+        width: 90%;
     }
 }
