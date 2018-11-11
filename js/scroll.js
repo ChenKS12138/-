@@ -42,6 +42,7 @@ function change_color(height){
             barTitle.style.display='flex';
             barTitle2.style.display='flex';
         }
+        barTitle.style.color='';
         
     }
     else if(height<h2){
@@ -50,6 +51,7 @@ function change_color(height){
         barColor(1);
         menu.setAttribute('src','img/menu_white.png');
         barTitle.style.display='flex';
+        barTitle.style.color='';
     }
     else if(height<h3){
         bar.style.backgroundColor='tomato';
@@ -57,6 +59,7 @@ function change_color(height){
         barColor(2);
         menu.setAttribute('src','img/menu_white.png');
         barTitle.style.display='flex';
+        barTitle.style.color='';
     }
     else if(height<h4){
         bar.style.backgroundColor='wheat';
@@ -64,6 +67,7 @@ function change_color(height){
         barColor(3);
         menu.setAttribute('src','img/menu_grey.png');
         barTitle.style.display='flex';
+        barTitle.style.color='black';
     }
     else if(height<h5){
         bar.style.backgroundColor='snow';
@@ -71,6 +75,7 @@ function change_color(height){
         barColor(4);
         menu.setAttribute('src','img/menu_grey.png');
         barTitle.style.display='flex';
+        barTitle.style.color='black';
     }
     else{
         bar.style.backgroundColor='#ff4081';
@@ -78,6 +83,7 @@ function change_color(height){
         barColor(5);
         menu.setAttribute('src','img/menu_white.png');
         barTitle.style.display='flex';
+        barTitle.style.color='black';
     }
 }
 
