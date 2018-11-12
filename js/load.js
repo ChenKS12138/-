@@ -4,9 +4,9 @@ function display(){
     b.style.opacity=Opanum;
     ttt=setInterval(function(){
         b.style.opacity=Opanum;
-        Opanum+=0.1;
+        Opanum+=0.01;
         if(Opanum>=1){
             clearInterval(ttt);
         }
-    },25);
+    },2);
 }
