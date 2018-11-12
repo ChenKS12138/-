@@ -62,7 +62,7 @@ function change_color(height){
         barTitle.style.color='';
     }
     else if(height<h4){
-        bar.style.backgroundColor='wheat';
+        bar.style.backgroundColor='rgb(255, 228, 196)';
         bar.style.color='slategray';
         barColor(3);
         menu.setAttribute('src','img/menu_grey.png');
@@ -78,7 +78,7 @@ function change_color(height){
         barTitle.style.color='black';
     }
     else{
-        bar.style.backgroundColor='#ff4081';
+        bar.style.backgroundColor='rgb(85, 107, 47)';
         bar.style.color='snow';
         barColor(5);
         menu.setAttribute('src','img/menu_white.png');

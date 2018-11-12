@@ -174,7 +174,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(245, 222, 179,0.618);
+    background-color: rgba(255, 228, 196, 0.618);
     color: slategray;
 }
 .tip3-parts{
@@ -204,7 +204,7 @@ body{
     margin-left: 2rem;
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: rgb(245, 222, 179,0.7);
+    background-color: rgba(255, 228, 196, 0.7);
 }
 .tip3-part-innertext{
     font-size: 1.3rem;
@@ -247,7 +247,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 3rem;
-    background-color: hsla(340, 99%, 63%, 0.618);
+    background-color: rgba(85, 107, 47, 0.618);
+    /* hsla(340, 99%, 63%, 0.618) */
     width: 100%;
     color: white;
     justify-content: center;
@@ -267,7 +268,7 @@ body{
 }
 .tip5>div{
     margin: 0.5rem;
-    background-color:  hsla(340, 99%, 63%, 0.7);
+    background-color:  rgba(85, 107, 47, 0.7);
     /* slategray */
 }
 .tip5-part1{
