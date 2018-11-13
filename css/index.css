@@ -564,3 +564,11 @@ body{
         width: 90%;
     }
 }
+@media all and (max-device-width:900px){
+    .tip3-part-content{
+        min-height: 30vh;
+    }
+    .tip3-part-innertext{
+        font-size: 1rem;
+    }
+}
