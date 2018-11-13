@@ -209,9 +209,12 @@ body{
     padding: 1rem;
     max-height: 30vw;
     background-color: rgba(255, 228, 196, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .tip3-part-innertext{
-    font-size: 2vw;
+    font-size: 1.7vw;
 }
 .tip3-title{
     font-size: 3rem;
