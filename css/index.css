@@ -167,6 +167,7 @@ body{
 }
 .tip2-part-content{
     font-size: 1rem;
+    max-width: 20rem;
 }
 .tip3{
     padding-top: 6rem;
