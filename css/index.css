@@ -198,16 +198,16 @@ body{
 .tip3-part>img{
     margin-left: 2rem;
     margin-right: 2rem;
-    width: 16rem;
-    height: 16rem;
+    width: 30vw;
+    height: 30vw;
     border-radius: 1rem;
 }
 .tip3-part-content{
-    width: 20rem;
+    width: 30vw;
     /* margin-left: 2rem;
     margin-bottom: 2rem; */
     padding: 1rem;
-    max-height: 16rem;
+    max-height: 30vw;
     background-color: rgba(255, 228, 196, 0.7);
 }
 .tip3-part-innertext{
