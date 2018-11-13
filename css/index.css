@@ -211,7 +211,8 @@ body{
 }
 .tip3-title{
     font-size: 3rem;
-    text-align: center
+    text-align: center;
+    color: black;
 }
 .tip4{
     display: flex;
@@ -266,7 +267,7 @@ body{
     margin-bottom: 2rem;
     font-size: 1.5rem;
 }
-.tip5>div{
+.tip5-div{
     margin: 0.5rem;
     background-color:  rgba(85, 107, 47, 0.7);
     /* slategray */
@@ -380,6 +381,31 @@ body{
     margin: 1rem;
     color: lightgrey;
     font-size: 1.1rem;
+}
+
+.title-and-img,.ti5>div{
+    display: flex;
+    align-items: center;
+}
+.title-and-img>img,.ti5>div>img{
+    width: 3rem;
+    height: 3rem;
+}
+.ti1>img{
+    margin-bottom: 1.5rem;
+}
+.ti2>img{
+    margin-bottom: 1.5rem;
+}
+.ti3>img{
+    margin-top: 0.5rem;
+}
+.ti5{
+    width: 100%;
+    justify-content: center;
+}
+.ti5>div>img{
+    margin-bottom: 0.5rem;
 }
 
 
