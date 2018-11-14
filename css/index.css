@@ -436,10 +436,10 @@ body{
 
 .enlarge{
     cursor:pointer;
-    transition: all 0.3s;
+    transition: all 0.1s;
 }
 .enlarge:hover{
-    transform:scale(1.1);
+    transform:scale(1.05) !important;
 }
 .color-change{
     cursor: pointer;

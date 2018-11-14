@@ -9,4 +9,4 @@ function display(){
             clearInterval(ttt);
         }
     },2);
-}
+}//实现页面加载时，闪一下的效果
