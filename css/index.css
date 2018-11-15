@@ -104,6 +104,9 @@ body{
     text-align: center;
     padding-right: 5vw;
 }
+.nj{
+    font-size:10rem;
+}
 .title-intro{
     margin-top: 1rem;
     font-size: 1.4rem;
@@ -547,8 +550,15 @@ body{
 
 }
 @media all and (max-width:660px){
-    .title-name{
-        font-size: 2.8rem;
+    .main{
+        background-size: cover;
+    }
+    .title-name,.nj{
+        font-size: 3rem;
+    }
+    .title-intro{
+        font-size: 1rem;
+        text-align: center;
     }
     .tip2-title{
         font-size: 2.6rem;
