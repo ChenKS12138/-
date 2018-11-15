@@ -124,12 +124,12 @@ body{
     color: snow;
 }
 .tip1-title{
-    font-size: 3rem;
+    font-size: 7vh;
     text-align: center;
     margin-bottom: 2rem;
 }
 .tip1-content{
-    font-size: 1.2rem;
+    font-size: 3vh;
     width: 70vw;
 }
 .tip2{
@@ -143,7 +143,7 @@ body{
     color: snow;
 }
 .tip2-title{
-    font-size: 3rem;
+    font-size: 7vh;
     margin-bottom: 2rem;
 }
 .tip2-parts{
@@ -155,7 +155,7 @@ body{
     margin-top: 2rem;
 }
 .tip2-part{
-    width: 18rem;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -164,15 +164,15 @@ body{
     padding: 0.8rem;
     margin-bottom: 2rem;
     min-height: 30rem;
+    height: 95vh;
 }
 .tip2-part-title{
-    font-size: 2rem;
+    font-size: 4vh;
     color: lightgrey;
     margin-bottom: 1rem;
 }
 .tip2-part-content{
-    font-size: 1rem;
-    max-width: 16rem;
+    font-size: 2.5vh;
     padding:1rem;
 }
 .tip3{
@@ -223,7 +223,7 @@ body{
     font-size: 1.7vw;
 }
 .tip3-title{
-    font-size: 3rem;
+    font-size: 7vh;
     text-align: center;
     color: black;
 }
@@ -236,7 +236,7 @@ body{
     
 }
 .tip4-title{
-    font-size: 3rem;
+    font-size: 7vh;
     text-align: center;
 }
 .tip4-content{
@@ -267,12 +267,12 @@ body{
     color: white;
     justify-content: center;
     padding-top: 8rem;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .tip5-title{
     text-align: center;
     width: 100%;
-    font-size: 3rem;
+    font-size: 7vh;
     margin-bottom: 1rem;
 }
 .tip5-innertext{
@@ -284,13 +284,18 @@ body{
 .tip5-div{
     margin: 0.5rem;
     background-color:  rgba(85, 107, 47, 0.7);
+    height: 100vh;
+    font-size: 3vh;
     /* slategray */
+}
+.tip5-div:last-child(1){
+    margin-top: 4rem;
 }
 .tip5-part1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* min-height: 60vh; */
+    /* min-height: 30vh; */
     width: 30vw;
 }
 .tip5-part1-title{
@@ -383,12 +388,13 @@ body{
     /* font-size: 1.1rem; */
     margin: 1rem;
     width: 80%;
+    align-self: center;
 }
 .tip5-part6{
     background-image: url("../img/xiaolongxia.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 25vw;
+    width: 32vw;
     /* min-height: 60vh; */
     display: flex;
     justify-content: flex-start;
@@ -439,6 +445,7 @@ body{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     color: snow;
+    font-size: 3vh;
 }
 
 
