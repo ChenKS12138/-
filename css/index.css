@@ -267,6 +267,7 @@ body{
     color: white;
     justify-content: center;
     padding-top: 8rem;
+    font-size: 1.3rem;
 }
 .tip5-title{
     text-align: center;
@@ -301,10 +302,11 @@ body{
     height: 40%;
 }
 .tip5-part1-content{
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     width: 80%;
     align-self: center;
     margin: 1rem;
+    padding:1rem;
 }
 .tip5-part2{
     background-image: url("../img/doufunao.png");
@@ -316,7 +318,7 @@ body{
     justify-content: flex-start;
     align-items: flex-end;
     filter: brightness(0.8);
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
 }
 .tip5-part2-content{
     margin: 1rem;
@@ -335,7 +337,7 @@ body{
 .tip5-part3-content{
     width: 80%;
     margin: 1rem;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
 }
 .tip5-part4{
     display: flex;
@@ -360,7 +362,7 @@ body{
 .tip5-part4-content{
     margin-top: 3rem;
     width: 80%;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
 }
 .tip5-part5{
     display: flex;
@@ -378,7 +380,7 @@ body{
     margin: 0.8rem;
 }
 .tip5-part5-content{
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
     margin: 1rem;
     width: 80%;
 }
@@ -396,7 +398,7 @@ body{
 .tip5-part6-content{
     margin: 1rem;
     color: lightgrey;
-    font-size: 1.1rem;
+    /* font-size: 1.1rem; */
 }
 
 .title-and-img,.ti5>div{
